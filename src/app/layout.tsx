@@ -39,7 +39,7 @@ export default function RootLayout({
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
-          crossOrigin="true"
+
         />
       </Head>
       <body className={`font-sans ${inter.className}`}>{children}</body>
