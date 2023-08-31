@@ -1,3 +1,46 @@
+# Density-intern
+
+A brief description of your project.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+Provide a brief introduction to your project. Explain what it does, its purpose, and any goals you aim to achieve with it.
+
+## Features
+
+List the key features of your project. This can be a bullet-point list of functionalities that your project provides.
+
+## Installation
+
+Explain how to install and set up your project. Include any prerequisites, dependencies, or environment setup that the user needs to do before running your project.
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/your-repo.git
+
+# Navigate to the project directory
+cd your-repo
+
+# Install dependencies
+npm install
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
