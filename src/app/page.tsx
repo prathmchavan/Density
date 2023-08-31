@@ -7,6 +7,7 @@ import EmotionSection from '../../component/Emotion/emo';
 import ContentSection from '../../component/Content/content';
 import ManifestoSection from '../../component/Manifesto/mani';
 import SelfImprovementSection from '../../component/Self/self';
+import ContactUs from '../../component/Contact/contact';
 
 gsap.registerPlugin(ScrollTrigger); // Register the ScrollTrigger plugin
 
@@ -38,6 +39,8 @@ const Home: React.FC = () => {
         <ContentSection />
         <ManifestoSection/>
         <SelfImprovementSection/>
+
+        <ContactUs/>
       </div>
     </div>
   );

@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import Image from 'next/image';
+import logo from  '../../public/ani5.gif'
 
 const SelfImprovementSection: React.FC = () => {
   const { ref, inView } = useInView({
@@ -27,7 +29,7 @@ const SelfImprovementSection: React.FC = () => {
         {/* Image on the right */}
         <div className="md:w-1/2 p-6">
           {/* Placeholder image */}
-          <img src="/self-improvement-image.jpg" alt="Self Improvement" className="w-full h-auto rounded-full" />
+          <Image src={logo} alt="Self Improvement" className="w-full h-auto rounded-full" />
         </div>
       </div>
     </motion.section>
