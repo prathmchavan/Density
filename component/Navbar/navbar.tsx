@@ -20,11 +20,11 @@ const Navbar: React.FC = () => {
   }, []);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-transparent z-50">
+    <nav className="fixed top-0 left-0 right-0 bg-transparent z-50 bg-white" >
       <div className=" text-white">
         <div className="container mx-auto flex items-center justify-between p-4">
         <Image src={LogoImage} alt="Logo" width={100} height={40} />
-          <div className="flex space-x-6 text-black font-noto-sans fontsi ">
+          <div className="flex space-x-6 text-black font-noto-sans font-semibold ">
             <Link
               to="section1"
               spy={true}
