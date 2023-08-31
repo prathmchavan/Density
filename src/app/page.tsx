@@ -2,6 +2,7 @@
 "use client";
 import { useEffect } from 'react';
 import gsap from 'gsap';
+import Navbar from '../../component/Navbar/navbar';
 
 const Home: React.FC = () => {
   useEffect(() => {
@@ -12,8 +13,8 @@ const Home: React.FC = () => {
   }, []);
 
   return (
-    <div className="animate-me">
-      This element will be animated.
+    <div >
+      <Navbar/>
     </div>
   );
 };
