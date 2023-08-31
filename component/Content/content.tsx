@@ -13,7 +13,7 @@ const ContentSection: React.FC = () => {
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold mb-8">Content Does This Sound Familiar?</h2>
         
-        <div className="flex overflow-x-scroll space-x-4 pb-8">
+        <div className="flex  space-x-4 pb-8">
           {cards.map((card, index) => (
             <div key={index} className={`flex-shrink-0 w-72 p-4 rounded-lg shadow-md ${card.color}`}>
               <div className="text-2xl mb-2">{card.emoji}</div>
